@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the button to display date after changing</p>
+    <button onclick="myFunction()"> Try it</button>
+    <p id ="Demo"></p>
+    <p id ="Demo2"></p>
+    <p id ="tim"></p>
+    <p id ="date"></p>
+    <p id ="timedate"></p>
+    <script>
+        function myFunction(){
+            var t1 = new Date();
+            t.setHours(5);
+            document.getElementById("Demo").innerHTML =t1 ;
+        }
+
+        var t = new Date().toLocaleTimeString();
+        document.getElementById("tim").innerHTML =t;//11:35:09
+
+        var d = new Date().toLocaleDateString();
+        document.getElementById("date").innerHTML =d;//01/06/2023
+
+        var dt = new Date().toLocaleString();
+        document.getElementById("timedate").innerHTML =dt;//01/06/2023, 11:35:35
+
+
+        (function(){
+            setInterval(()=>{
+                var d3 = new Date().toLocaleTimeString();//it condition is print currect time
+                document.getElementById("Demo2").innerHTML =d3;
+            } ,1000)
+        })();
+
+    </script>
+</body>
+</html>
