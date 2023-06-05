@@ -61,7 +61,7 @@ console.log(Math.max(0,150,30,20,-8,-200));
 //..Math.random()
 //..Math.random()return a random number betwween 0(inclusive),and 1(inclusive).............
 
-console.log(Math.random()*10);
+console.log(Math.random()*10);//dout
 console.log(Math.floor(Math.random()*10));//0 to 9
 
 //..Math.trunc()

@@ -214,8 +214,24 @@
 
 //............squar....Method.................................
 
-let arr = [25,36,49,64,81];
-let arrSqr =arr.map((curElem) =>{
-    return Math.sqrt(curElem);
+// let arr = [25,36,49,64,81]; // Init array data
+// // Map on array to sqroot of element inside the array
+// let arrSqr =arr.map((curElem) =>{
+//     return Math.sqrt(curElem);
+// }) 
+// console.log(arrSqr);
+
+//...How to fatten an array converting 2d and 3d array into one dimensional array ..............
+
+const arr =[
+    ['Zone_1','Zone_2'],
+    ['Zone_3','Zone_4'],
+    ['Zone_5','Zone_6'],
+    ['Zone_7','Zone_8']
+]
+let flatArr = arr.reduce((accum,currval)=>{
+    return accum.concat(currval);
 })
-console.log(arrSqr);
+console.log(flatArr);
+
+
