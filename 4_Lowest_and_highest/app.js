@@ -1,0 +1,23 @@
+//..Sort an array from lowest to highest......................
+var Arr =[11,45,50,390,20,80]
+//...loop will be start from 1 and i is less than Arr.length.................
+for ( var i =1;i<Arr.length;i++){  
+    //.....loop will be start from 0 and check j is less than i.......... 
+    for (var j =0; j<i;j++){  
+        //...if check the condition Arr[i] is less than Arr[j]........   
+        if (Arr[i]<Arr[j]){  
+            
+            //...new variable is a x equal Arr[i].........
+            var x =Arr[i];
+              // ..if Arr[1] equal will be Arr[j].........   
+            Arr[i]=Arr[j]; 
+            //...than Arr[j] equal wiil be x..............
+            Arr[j] =x;   
+        }
+    }
+}
+console.log(Arr);
+
+
+
+
