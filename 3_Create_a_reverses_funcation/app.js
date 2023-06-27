@@ -7,7 +7,7 @@ for (var index = ar.length;index>=0;index--){
     revers.push(ar[index])
 }
 console.log(revers);//find the result...........
-// revers mathod...............
-for (let reverses of revers){
-    console.log(reverses);
-}
+//revers mathod...............
+// for (let reverses of revers){
+//     console.log(reverses);
+// }

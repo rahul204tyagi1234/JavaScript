@@ -9,7 +9,7 @@ function WCount(str) {
     }
   }
   
-  document.write(WCount("Hii Rahul how are you i don`t like her")); 
+  console.log(WCount("Hii Rahul how are you i don`t like her")); 
   function WCount(str) { 
     return str.split(" ").length;
   }

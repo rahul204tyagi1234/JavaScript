@@ -15,3 +15,9 @@ for (var i=1;i<array.length;i++){
 //return the final result......
 console.log(maximum);
 document.write(`<h1> Maximum number of array :- ${maximum}`)
+
+
+//jkhgfgdtexfcgvhbnjmk,l;';
+
+
+

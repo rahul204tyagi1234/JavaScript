@@ -1,0 +1,8 @@
+td{
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+table ,tr,td{
+    border: 3px solid black;
+}
